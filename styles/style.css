@@ -6,3 +6,117 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;    
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0 10px 20px;
+  }
+  
+  ul {
+    float: right;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  ul li a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+#music-everyone {
+    background-image: url("/images/landing.jpg");
+    padding: 15%;
+    background-size : cover;  
+    color: white;
+    font-size: 65px;
+    justify-content: center;      
+}
+
+#music-everyone h1{
+    text-align: center;
+}
+
+#music-everyone p{
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-align: center;
+    /*padding: 0 10% 40px 10%;
+    align-items: center;*/
+  }
+  
+.whats-on{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+.one-third {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+.one-third img {
+    width: 100px;
+    height: 100px;
+  }
+  
+.one-third h3 {
+    color: #00B172;
+    height: auto;
+    font-style: bold;
+  }
+
+.green-section {
+  position: relative;
+  background-color: #00B172;
+  background-image: url("/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between;
+
+}
+
+.green-section h1{
+  border-bottom: solid;
+  border-bottom-width: 3px;
+  text-decoration-style: solid ;
+  }
+
+.kanye-description{
+  padding-right: 20px; 
+  color: #ffffff;
+  padding: 0 0 0 30px;
+}
+
+.kanye-logo{
+    padding: 30px 100px 30px 0px;
+}
